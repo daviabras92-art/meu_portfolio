@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davi Abras Scalabrini | Portfólio de Ciência de Dados</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navegação -->
+    <header class="header">
+        <div class="logo">
+            <a href="#home">Davi<span>.dev</span></a>
+        </div>
+        <nav class="navbar" id="navbar">
+            <a href="#home">Início</a>
+            <a href="#sobre">Sobre Mim</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+        <div class="nav-controls">
+            <button id="theme-toggle" class="theme-btn" aria-label="Alternar tema">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button id="menu-toggle" class="menu-btn" aria-label="Abrir menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Seção 1: Início / Apresentação -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <span class="badge">Ciência de Dados & Banco de Dados</span>
+            <h1>Davi Abras Scalabrini</h1>
+            <h2>Estudante de Análise e Desenvolvimento de Sistemas (4º Semestre)</h2>
+            <p>
+                Tenho 25 anos e foco meus estudos no gerenciamento e modelagem de banco de dados relacionais. 
+                Meu objetivo profissional é se tornar um profissional competente, desenvolvendo e projetando maneiras que simplifiquem a vida do cliente/usuário através da informação estruturada.
+            </p>
+            <div class="hero-btns">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contato" class="btn btn-secondary">Entre em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 2: Sobre Mim -->
+    <section id="sobre" class="about">
+        <h2 class="section-title">Sobre <span>Mim</span></h2>
+        <div class="about-container">
+            <div class="about-card">
+                <h3><i class="fa-solid fa-user"></i> Hobbies & Estilo de Vida</h3>
+                <p>Nas horas vagas, valorizo o contato com a natureza e o bem-estar:</p>
+                <ul>
+                    <li><i class="fa-solid fa-fish"></i> Pescar</li>
+                    <li><i class="fa-solid fa-futbol"></i> Jogar bola</li>
+                    <li><i class="fa-solid fa-person-biking"></i> Ciclismo</li>
+                    <li><i class="fa-solid fa-person-hiking"></i> Trilhas e viagens</li>
+                    <li><i class="fa-solid fa-gamepad"></i> Cantinho gamer para distrair</li>
+                </ul>
+            </div>
+
+            <div class="about-card">
+                <h3><i class="fa-solid fa-brain"></i> Habilidades Soft Skills</h3>
+                <div class="skills-tags">
+                    <span class="tag">Proatividade</span>
+                    <span class="tag">Rapidez</span>
+                    <span class="tag">Agilidade</span>
+                    <span class="tag">Boa Comunicação</span>
+                </div>
+            </div>
+
+            <div class="about-card">
+                <h3><i class="fa-solid fa-graduation-cap"></i> Objetivos & Estudos</h3>
+                <p><strong>Curso atual:</strong> Análise e Desenvolvimento de Sistemas (4º Semestre)</p>
+                <p><strong>Objetivos Acadêmicos:</strong> Formar-me em novos cursos de tecnologia para aprimorar continuamente meus conhecimentos em ciência de dados e banco de dados relacionais.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção 3: Projetos -->
+    <section id="projetos" class="projects">
+        <h2 class="section-title">Projetos & <span>Soluções</span></h2>
+        <p class="section-subtitle">Tema central: Gerenciamento de Estoque com Banco de Dados Relacional</p>
+
+        <div class="projects-grid">
+            <!-- Projeto 1 -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Modelagem de Banco de Dados de Estoque">
+                </div>
+                <div class="project-info">
+                    <h3>Modelagem Relacional de Estoque</h3>
+                    <p>Estruturação de esquemas de banco de dados (ERD) para controle de entrada e saída de mercadorias, reduzindo inconsistências de dados.</p>
+                    <div class="tech-stack">
+                        <span>SQL</span>
+                        <span>PostgreSQL</span>
+                        <span>DBDiagram</span>
+                    </div>
+                    <a href="https://github.com/daviabras92" target="_blank" class="btn btn-card">Mais Informações</a>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Dashboard de Gerenciamento de Informação">
+                </div>
+                <div class="project-info">
+                    <h3>Consultas Otimizadas para Inventário</h3>
+                    <p>Desenvolvimento de queries complexas (JOINs, Views, Triggers) para geração de relatórios de estoque crítico e giro de mercadorias.</p>
+                    <div class="tech-stack">
+                        <span>MySQL</span>
+                        <span>SQL Server</span>
+                        <span>DBeaver</span>
+                    </div>
+                    <a href="https://github.com/daviabras92" target="_blank" class="btn btn-card">Mais Informações</a>
+                </div>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="project-card">
+                <div class="project-img">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="Introdução à Ciência de Dados em Estoques">
+                </div>
+                <div class="project-info">
+                    <h3>Análise Preditiva de Demanda</h3>
+                    <p>Estudo inicial utilizando dados históricos de estoque para prever reposições de produtos e simplificar a tomada de decisão do usuário.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>SQLite</span>
+                    </div>
+                    <a href="https://github.com/daviabras92" target="_blank" class="btn btn-card">Mais Informações</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Seção 4: Contato -->
+    <section id="contato" class="contact">
+        <h2 class="section-title">Entre em <span>Contato</span></h2>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Canais Profissionais</h3>
+                <div class="info-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href="mailto:daviabras92@gmail.com">daviabras92@gmail.com</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-github"></i>
+                    <a href="https://github.com/daviabras92" target="_blank">github.com/daviabras92</a>
+                </div>
+                <div class="info-item">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn (Perfil)</a>
+                </div>
+            </div>
+
+            <form class="contact-form" id="contact-form" onsubmit="event.preventDefault(); alert('Mensagem enviada com sucesso!');">
+                <h3>Envie uma Mensagem</h3>
+                <div class="form-group">
+                    <input type="text" id="nome" placeholder="Seu Nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Seu E-mail" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé e Botão Voltar ao Topo -->
+    <footer>
+        <p>&copy; 2026 Davi Abras Scalabrini. Todos os direitos reservados.</p>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Voltar ao topo">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
